@@ -1,9 +1,114 @@
-*{
-    background-color: aliceblue;
-}
+
 header{
-   background-color: whitesmoke; 
-   height: 200px;
+    position: relative;
+   height: 150px;
    width:100% ;
 }
 
+#firstImg{
+    
+    margin: 20px ;
+    float: left;
+    display: inline-block;
+}
+#first{
+    display: inline-block;
+}
+h1{
+padding-top: 20px;
+font-family: 'Lobster', cursive;
+font-size: 30px;
+}
+
+
+
+body{
+     background-color: whitesmoke; 
+
+}
+#rightimg{
+     float: right; 
+    /* margin-left: 2000px; */
+    display: inline;
+    margin: 20px;
+
+}
+
+#hr{
+    height: 30px;
+    width: 100%;
+}
+p{
+    font-family: 'Crimson Text', serif;
+    padding-left: 20px;
+}
+#imgcenter{
+    margin-top: 20px;
+    height: 500px;
+ width: 1500px;
+}
+.pragragh{
+    color: gray;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+
+}
+#margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+fieldset{
+    width: 1500px;
+    height: 200px;
+    background-image:url("../IMG/list-bg.png");
+}
+
+
+#listright{
+    
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    float:right;
+}
+#listleft{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+
+#imgfoot{
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;  
+}
+
+#last{
+    display: inline;
+
+
+}
+label{
+    font-size: larger;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+button{
+
+    position: absolute;
+    background-color: brown;
+    size: 20px; 
+    color: white; 
+ margin-left: 1300px;
+    top:1400px;
+    height: 40px;
+    width: 150px;
+     
+}
