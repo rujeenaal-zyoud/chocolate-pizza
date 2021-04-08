@@ -7,18 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css"> 
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
 <body>
     <header>
-<div id="first">
-        <img
+<div id ="first"  >
+        <img id="firstImg"
             src="https://firebasestorage.googleapis.com/v0/b/remo-conference.appspot.com/o/Event%2FChatMedia%2Fpke67bhkklo%2Flogo.png?alt=media&token=466c0760-9f38-4386-b50b-7c1c582a1c34">
-        <H1>Delicious</H1>
-        <p>POSTED ON 15 DEC 2013/DESSERTS</p>
+        
+            <H1 style="margin-left:20px;">Delicious</H1>
+        <p style="color: gray; margin-left: 20px; ">The best food blog on web</p>
     </div>
-        <div>
+        <div id="rightimg">
             <img
                 src="https://firebasestorage.googleapis.com/v0/b/remo-conference.appspot.com/o/Event%2FChatMedia%2Fwcyxk2lcbdp%2Ffb-icon.png?alt=media&token=474fb446-fe46-41dc-bc4f-f9b119ca9d70">
             <img
@@ -31,94 +35,105 @@
                 src="https://firebasestorage.googleapis.com/v0/b/remo-conference.appspot.com/o/Event%2FChatMedia%2Fsn6njfgynl%2Fflic-icon.png?alt=media&token=cb34c3a3-15ba-4c57-94b7-4dc057b0d5f6">
             <img src="https://firebasestorage.googleapis.com/v0/b/remo-conference.appspot.com/o/Event%2FChatMedia%2Fsmo1uxaobkl%2Fpint-icon.png?alt=media&token=42365cf2-169d-435b-a05e-133a2468bc06"
                 alt="">
-        </div>
-        <div>
+        
             <img src="https://firebasestorage.googleapis.com/v0/b/remo-conference.appspot.com/o/Event%2FChatMedia%2F19r0pme9m4p%2Frss-icon.png?alt=media&token=43b1e775-4649-4f45-8788-9475ca27c15a"
                 alt="">
             <img src="https://firebasestorage.googleapis.com/v0/b/remo-conference.appspot.com/o/Event%2FChatMedia%2F4eowuvirjan%2Fmail-icon%20(1).png?alt=media&token=80eeb1bd-5c73-4efe-99fe-8bff078b04d5"
                 alt="">
-        </div>
-        <hr />
+            </div>
 
     </header>
-    <img src="IMG/hr-img.png" alt="hrr">
+    <img  id ="hr"src="IMG/hr-img.png" alt="hrr">
 
     <main>
-        <h1>
+        <h2 style="font-size: 50px; font-weight: bolder; margin-top: 10px;">
             Chocolate Pizza
-        </h1>
-        <p>POSTED ON 15 DEC 2013/DESSERTS</p>
-        <img src="IMG/choclate.png">
-        <p>
+        </h2>
+        <p style="font-family :'Crimson Text', serif; color: gray;">POSTED ON 15 DEC 2013/DESSERTS</p>
+        <img id="imgcenter" src="IMG/choclate.png">
+
+        <section  id="margin">
+        <p class="pragragh">
             For the fig-swirl: Melt over medium heat in a saucepan. Add brown sugar and stir it dissolve.      Halve all of the figs and toss in the saucepan wit heater and lemon juice. Cook over medium heat, stirring frequently,       until you have a chucky jimmy mixture. Add salt with water one or two stirs, set aside and let cool completely.  
         </p>
-        <p>
-            Ice cream: In a small pot over medium hear, combine milk, and granulated sugar until sugar so completely dissolved and the milk is just barely lukewarm.      Whisk in the egg yolks, Set mixture in the fridge and wait until the fig mixture is cooled.
+        <br>
+        <p class="pragragh">
+              Ice cream: In a small pot over medium hear, combine milk, and granulated sugar until sugar so completely dissolved and the milk is just barely lukewarm.      Whisk in the egg yolks, Set mixture in the fridge and wait until the fig mixture is cooled.
 
         </p>
-        <p>
+        <br>
+        <p class="pragragh">
             Using ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e, let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture       , and the nuts. Continue to process for +/- 10minutes. Pour semi-frozen mixture into a Pyrex dish or glass Tupperware. Freeze for at least two hours before serving,
         </p>
+    </section>
+    <section id="list">
         <form action="" id="form"></form>
         <fieldset>
+            <div id="listright">
             <input type="checkbox" name="milk" id="milk">
             <label for="milk"> 1 1/2 cups milk</label>
-
+<br>
             <input type="checkbox" name="mas" id="mas">
             <label for="mas"> 1/2 cups mascarpone</label>
             <br />
             <input type="checkbox" name="salt" id="salt">
             <label for="salt"> 1/2 tsp salt</label>
-
+<br>
             <input type="checkbox" name="sug" id="sug">
             <label for="sug"> 1/2 cup brown sugar</label>
             <br />
             <input type="checkbox" name="water" id="water">
             <label for="water"> 2-4 tbsp water</label>
-
+<br>
             <input type="checkbox" name="crem" id="crem">
             <label for="crem">1 1/2 cups heavy cream</label>
             <br />
+        </div>
+        <div id="listleft">
             <input type="checkbox" name="sugr" id="sugr">
             <label for="sugr"> 1/3 granulated sugar</label>
-
+<br>
             <input type="checkbox" name="egg" id="egg">
             <label for="egg">2 egg yolks</label>
             <br />
             <input type="checkbox" name="lem" id="lem">
             <label for="lem"> 1 lemon, juiced</label>
-
+<br>
             <input type="checkbox" name="butter" id="butter">
             <label for="butter"> 2 tbsp butter</label>
             <br />
             <input type="checkbox" name="hony" id="hony">
-            <label for="hony"> 1 cup hony roasted pecans, roughly chopped</label>
-
+            <label  style="padding-top: 20px;" for="hony"> 1 cup hony roasted pecans, roughly chopped</label>
+<br>
             <input type="checkbox" name="fig" id="fig">
             <label for="fig"> 1 lb Black Misson Figs</label>
 
-
+        </div>
         </fieldset>
         </form>
+    </section>
 
-        <hr/>
+      <img id="imgfoot" src="IMG\hr-img.png" alt="hrr">
 
-        <img src="https://raw.githubusercontent.com/LTUC/amman-201d20/main/class-10/lab-a/lab-assets/van-pic.png" >
-        <h2> Vanessa Stevenson</h2>
-        <p>
-            Food enthusiastic, phtogrphy fan. Add a pinch or raw foodism and          that's pretty musch who am i
+<div id="last">
+        <img  style="float: left; margin-left:50px;margin-top: 30px; "src="https://raw.githubusercontent.com/LTUC/amman-201d20/main/class-10/lab-a/lab-assets/van-pic.png" >
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 30px; font-size: 30px;padding: 15px;"> Vanessa Stevenson</h2>
+        <p style=" font-family: 'Crimson Text', serif; ">
+            Food enthusiastic, phtogrphy fan. Add a pinch or raw foodism and that's 
         </p>
+        <p style=" font-family: 'Crimson Text', serif; margin-left: 100px;">pretty musch who am I</p>
         <button>
-            SHARE
+            SHARE RECIP
         </button>
 
+</div>
     </main>
 
     <footer>
-        <hr/>
-        <img src="https://raw.githubusercontent.com/LTUC/amman-201d20/main/class-10/lab-a/lab-assets/small-logo.png" >
+        <hr/ style="margin-top: 20px;">
+        <img  style ="margin-left: 750px ; bottom: 10px; " src="https://raw.githubusercontent.com/LTUC/amman-201d20/main/class-10/lab-a/lab-assets/small-logo.png" >
 
-        <p> Delicious &copy; 2013. All Rights Reserved. <br>
+        <p style="margin-left: 600px; color: gray;"> Delicious &copy; 2013. All Rights Reserved. <br>
         Proudly published with Ghost. </p>
     </footer>
 
